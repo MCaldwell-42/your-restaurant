@@ -22,7 +22,7 @@ class App extends React.Component {
               <Route path='/home' component={Home}/>
               <Route path='/menu' component={Menu} />
               <Route path='/specials' component={Specials} />
-              <Route path='contact' component={ContactUs} />
+              <Route path='/contact' component={ContactUs} />
 
               <Redirect from='*' to='/home' />
             </Switch>
