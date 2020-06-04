@@ -22,6 +22,9 @@ class MyNavbar extends React.Component {
           <NavItem>
             <NavLink tag={RRNavLink} to='/specials'>Specials</NavLink>
           </NavItem>
+          <NavItem>
+            <NavLink tag={RRNavLink} to='/contact'>Contact Us</NavLink>
+          </NavItem>
         </Nav>
     );
     return (

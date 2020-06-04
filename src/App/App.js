@@ -7,6 +7,7 @@ import MyNavBar from '../components/MyNavBar';
 import Home from '../components/Home';
 import Menu from '../components/Menu';
 import Specials from '../components/Specials';
+import ContactUs from '../components/ContactUs';
 
 class App extends React.Component {
   render() {
@@ -21,6 +22,7 @@ class App extends React.Component {
               <Route path='/home' component={Home}/>
               <Route path='/menu' component={Menu} />
               <Route path='/specials' component={Specials} />
+              <Route path='/contact' component={ContactUs} />
 
               <Redirect from='*' to='/home' />
             </Switch>
