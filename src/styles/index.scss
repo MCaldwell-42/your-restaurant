@@ -19,4 +19,19 @@ body {
 .card {
     border: black 2px solid;
     margin-top: 20px;
+    font-size: 1em;
+}
+
+.contact-text {
+    border-right: black 1px solid;
+}
+
+.card-content {
+    text-align: left;
+}
+
+.homeBanner {
+    background-color: navajowhite;
+    border: solid black 2px;
+    margin-top: 20px;
 }
