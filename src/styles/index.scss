@@ -2,9 +2,6 @@
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 @import 'variables';
 
-body {
-  background-color: $favColor;
-}
 
 .menuPics {
     border: black 4px solid;
@@ -34,4 +31,24 @@ body {
     background-color: navajowhite;
     border: solid black 2px;
     margin-top: 20px;
+}
+
+body {
+    background: url("https://media.timeout.com/images/102762113/630/472/image.jpg")no-repeat center center fixed;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding: 0;
+    font-size: 1em;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 1024px;
+    min-width: 1024px;
+    width: 100%;
+    height: 100%;
 }
