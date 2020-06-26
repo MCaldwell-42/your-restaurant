@@ -8,7 +8,7 @@ class Home extends React.Component {
     return (
         <div className="special">
         <h1 className="homeBanner" color="dark" dark expand="md">Your Restaurant's Name Here</h1>
-        <div className="card flex-row flex-wrap homeCards">
+        <div className="card flex-row homeCards">
             <div class="border-0">
           <img class="restPics" src={RestPic2} alt="restaurant tables" />
           </div>
@@ -19,17 +19,17 @@ class Home extends React.Component {
           </p>
           </div>
         </div>
-        <div className="card flex-row flex-wrap homeCards">
+        <div className="card flex-row homeCards">
             <div class="card-header border-0">
             <p>Locally owned and locally staffed! <br/>
               Know that when you eat at Your Restaurant your money is going back into your community.
           </p>
           </div>
           <div className="border-0">
-          <img class="restPics" src={RestPic3} alt="bartender" />
+          <img class="restPics1" src={RestPic3} alt="bartender" />
           </div>
         </div>
-        <div className="card flex-row flex-wrap homeCards">
+        <div className="card flex-row homeCards">
             <div class="border-0">
           <img class="restPics" src={RestPic1} alt="man serving a burger" />
           </div>

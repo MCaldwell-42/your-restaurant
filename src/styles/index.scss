@@ -6,11 +6,21 @@
 .menuPics {
     border: black 4px solid;
     margin: 30px;
+    border-radius: 5px;
 }
 
 .restPics {
     width: 400px;
     height: 300px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.restPics1 {
+    width: 400px;
+    height: 300px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .card {
@@ -63,4 +73,8 @@ body {
     background-color: gray;
     font-size: 1.5em;
     color: white;
+}
+
+.homeCards {
+    font-size: 1.5em;
 }
