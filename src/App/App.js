@@ -15,6 +15,7 @@ class App extends React.Component {
       <div className="App">
           <BrowserRouter>
       <React.Fragment>
+        <div id="overHeaderInfo" class="primary-header">Call us for carry out or delivery! <br/> 731-885-887</div>
         <MyNavBar/>
         <div className='container'>
           <div className='row'>

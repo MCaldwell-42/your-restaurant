@@ -7,7 +7,7 @@ class Home extends React.Component {
   render() {
     return (
         <div className="special">
-        <h1 className="homeBanner">Your Restaurant's Name Here</h1>
+        <h1 className="homeBanner" color="dark" dark expand="md">Your Restaurant's Name Here</h1>
         <div className="card flex-row flex-wrap homeCards">
             <div class="border-0">
           <img class="restPics" src={RestPic2} alt="restaurant tables" />
