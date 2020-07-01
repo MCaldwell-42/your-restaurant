@@ -7,7 +7,7 @@ class Specials extends React.Component {
         <h1 className="homeBanner"> Daily Specials </h1>
         <div className="card specials-card">
           <div className="card-body">
-            <h5 className="card-title">Weekday Happy Hour Special</h5>
+            <h2 className="card-title"><u>Weekday Happy Hour Special</u></h2>
             <p className="card-text">Every weekday: 3:30 - 6:00pm <br/>
             All domestic bottles: $2.00 <br/>
             Drafts, Wine, and Liquour: half-price <br/>
@@ -17,26 +17,26 @@ class Specials extends React.Component {
         </div>
         <div className="card specials">
           <div className="card-body">
-            <h5 className="card-title">Monday Specials</h5>
+            <h2 className="card-title"><u>Monday Specials</u></h2>
             <p className="card-text">$5 burgers!</p>
           </div>
           </div>
         <div className="card specials">
           <div className="card-body">
-            <h5 className="card-title">Tueday Specials</h5>
+            <h2 className="card-title"><u>Tueday Specials</u></h2>
             <p className="card-text">Tace Tuesdays! $2 tacos</p>
           </div>
         </div>
         <div className="card specials">
           <div className="card-body">
-            <h5 className="card-title">Wednesday Specials</h5>
+            <h2 className="card-title"><u>Wednesday Specials</u></h2>
             <p className="card-text">Trivia Night! <br/>
             $5 pitchers and $5 wings</p>
           </div>
           </div>
           <div className="card specials">
           <div className="card-body">
-            <h5 className="card-title">Thursday Specials</h5>
+            <h2 className="card-title"><u>Thursday Specials</u></h2>
             <p className="card-text">$3 drafts all night</p>
           </div>
         </div>
