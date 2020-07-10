@@ -24,7 +24,7 @@
 }
 
 .card {
-    border: black 3px solid;
+    border: black 4px solid;
     margin-top: 20px;
     font-size: 1em;
     border-radius: 10px;
@@ -39,14 +39,15 @@
 }
 
 .homeBanner {
-    background-color: navajowhite;
-    border: solid black 2px;
+    background-color: teal;
+    border: solid black 3px;
     margin-top: 20px;
     border-radius: 10px;
+    color: white;
 }
 
 body {
-    background: url("https://media.timeout.com/images/102762113/630/472/image.jpg")no-repeat center center fixed;
+    background: url("https://thumbs.dreamstime.com/b/art-italian-homemade-menu-food-background-restaurant-week-home-cooking-59119707.jpg")no-repeat center center fixed;
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
       "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
